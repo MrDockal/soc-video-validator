@@ -1,0 +1,110 @@
+{
+  "android": [
+    {
+      "container": ["3gp", "mp4", "ts"],
+      "audioCodec": ["AAC LC", "HE-AACv1", "AAC+", "AAC", "HE-AACv2", "AAC ELD"],
+      "videoCodec": [
+        {
+          "name": "H.263",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "H.264",
+          "profiles": [
+            "baseProfile"
+          ],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 30,
+                "bitRate": 20
+              }
+          ]
+        },
+        {
+            "name": "AVC",
+            "profiles": [
+              "baseProfile"
+            ],
+            "resolution": [
+              {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 30,
+                  "bitRate": 20
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "container": ["mp4"],
+      "audioCodec": ["AAC LC", "HE-AACv1", "AAC+", "AAC", "HE-AACv2", "AAC ELD"],
+      "videoCodec": [
+        {
+          "name": "H.265",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "HEVC",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "container": ["webm"],
+      "audioCodec": ["vorbis", "matroska"],
+      "videoCodec": [
+        {
+          "name": "VP8",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 10
+            }
+          ]
+        },
+        {
+          "name": "VP9",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
