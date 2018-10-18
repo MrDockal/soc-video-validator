@@ -1,0 +1,508 @@
+{
+  "webos2": [
+    {
+      "container": ["asf", "wmv"],
+      "audioCodec": ["WMA Standard", "WMA", "WMA v1", "WMA 9 Professional", "WMA 9"],
+      "videoCodec": [
+        {
+          "name": "VC-1 Advanced Profile",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "VC-1 Simple Profile",
+          "profiles": [],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 30,
+                "bitRate": 20
+              }
+          ]
+        },
+        {
+            "name": "VC-1 Main Profile",
+            "profiles": [],
+            "resolution": [
+              {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 30,
+                  "bitRate": 20
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "container": ["divx", "avi"],
+      "audioCodec": ["MPEG-1 Layer I", "MPEG-1 Layer II", "MPEG-1 Layer III (MP3)", "mp3", "Dolby Digital", "LPCM", "ADPCM", "DTS"],
+      "videoCodec": [
+        {
+          "name": "DivX3.11",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "DivX 4",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "DivX 5",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "DivX 6",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "XVID",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "H.264",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "AVC",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "Motion Jpeg",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "MPEG-4",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "container": ["mp4", "m4v", "mov"],
+      "audioCodec": ["AAC", "MPEG-1 Layer III", "mp3"],
+      "videoCodec": [
+        {
+          "name": "H.264",
+          "profiles": [
+            "baseProfile",
+            "mainProfile",
+            "highProfile"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 3840,
+              "maxHeight": 2160,
+              "frameRate": 30,
+              "bitRate": 20
+            },
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+            "name": "AVC",
+            "profiles": [
+              "baseProfile",
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                "maxWidth": 3840,
+                "maxHeight": 2160,
+                "frameRate": 30,
+                "bitRate": 20
+              },
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+        },
+        {
+            "name": "MPEG-4",
+            "profiles": [
+              "baseProfile",
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                "maxWidth": 3840,
+                "maxHeight": 2160,
+                "frameRate": 30,
+                "bitRate": 20
+              },
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+        }
+      ]
+    },
+    {
+        "container": ["3gp", "3g2"],
+        "audioCodec": ["AAC","AMR-NB", "AMR-WB"],
+        "videoCodec": [
+          {
+            "name": "H.264",
+            "profiles": [
+              "baseProfile",
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+          },
+          {
+              "name": "AVC",
+              "profiles": [
+                "baseProfile",
+                "mainProfile",
+                "highProfile"
+              ],
+              "resolution": [
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          },
+          {
+              "name": "MPEG-4",
+              "profiles": [
+                "baseProfile",
+                "mainProfile",
+                "highProfile"
+              ],
+              "resolution": [
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          }
+        ]
+      },
+      {
+        "container": ["mkv"],
+        "audioCodec": ["Dolby Digital", "PCM", "DTS", "MPEG-1 Layer I", "MPEG-1 Layer II", "MPEG-1 Layer III", "mp3", "Vorbis", "AAC"],
+        "videoCodec": [
+          {
+            "name": "H.264",
+            "profiles": [
+              "baseProfile",
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                "maxWidth": 3840,
+                "maxHeight": 2160,
+                "frameRate": 30,
+                "bitRate": 20
+              },
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+          },
+          {
+              "name": "AVC",
+              "profiles": [
+                "baseProfile",
+                "mainProfile",
+                "highProfile"
+              ],
+              "resolution": [
+                {
+                  "maxWidth": 3840,
+                  "maxHeight": 2160,
+                  "frameRate": 30,
+                  "bitRate": 20
+                },
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          },
+          {
+              "name": "MPEG-4",
+              "profiles": [
+                "baseProfile",
+                "mainProfile",
+                "highProfile"
+              ],
+              "resolution": [
+                {
+                  "maxWidth": 3840,
+                  "maxHeight": 2160,
+                  "frameRate": 30,
+                  "bitRate": 20
+                },
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          },
+          {
+              "name": "MPEG-2",
+              "profiles": [],
+              "resolution": [
+                {
+                  "maxWidth": 3840,
+                  "maxHeight": 2160,
+                  "frameRate": 30,
+                  "bitRate": 20
+                },
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          },
+          {
+              "name": "VP8",
+              "profiles": [
+                "baseProfile",
+                "mainProfile",
+                "highProfile"
+              ],
+              "resolution": [
+                {
+                  "maxWidth": 3840,
+                  "maxHeight": 2160,
+                  "frameRate": 30,
+                  "bitRate": 20
+                },
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          }
+        ]
+      },
+      {
+        "container": ["ts", "trp", "tp", "mts"],
+        "audioCodec": ["Dolby Digital","Dolby Digital Plus", "AAC", "PCM", "MPEG-1 Layer I", "MPEG-1 Layer II", "MPEG-1 Layer III", "mp3"],
+        "videoCodec": [
+          {
+            "name": "H.264",
+            "profiles": [
+              "baseProfile",
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+          },
+          {
+              "name": "AVC",
+              "profiles": [
+                "baseProfile",
+                "mainProfile",
+                "highProfile"
+              ],
+              "resolution": [
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          },
+          {
+              "name": "MPEG-2",
+              "profiles": [],
+              "resolution": [
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          }
+        ]
+      },
+      {
+        "container": ["mpg", "mpeg", "dat"],
+        "audioCodec": ["MPEG-1 Layer I", "MPEG-1 Layer II", "MPEG-1 Layer III", "mp3"],
+        "videoCodec": [
+          {
+            "name": "MPEG-1",
+            "profiles": [],
+            "resolution": [
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+          },
+          {
+              "name": "MPEG-2",
+              "profiles": [],
+              "resolution": [
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          }
+        ]
+      },
+      {
+        "container": ["vob"],
+        "audioCodec": ["Dolby Digital", "MPEG-1 Layer I", "MPEG-1 Layer II", "DVD-LPCM"],
+        "videoCodec": [
+          {
+            "name": "MPEG-1",
+            "profiles": [],
+            "resolution": [
+              {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 20
+              }
+            ]
+          },
+          {
+              "name": "MPEG-2",
+              "profiles": [],
+              "resolution": [
+                {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 20
+                }
+              ]
+          }
+        ]
+      }
+  ]
+}
