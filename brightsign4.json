@@ -1,0 +1,130 @@
+{
+  "brightsign4": [
+    {
+      "container": ["ts", "mpg","vob", "mov", "mp4", "m2ts", "webm"],
+      "audioCodec": ["AAC", "vorbis"],
+      "videoCodec": [
+        {
+          "name": "H.265",
+          "profiles": [
+            "mainProfile",
+            "main 10"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 25
+            }
+          ]
+        },
+        {
+          "name": "H.264",
+          "profiles": [
+            "mainProfile",
+            "highProfile"
+          ],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 25
+              }
+          ]
+        },
+        {
+            "name": "AVC",
+            "profiles": [
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 25
+                }
+            ]
+        },
+        {
+          "name": "VP9",
+          "profiles": [],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 25
+              }
+          ]
+        },
+        {
+          "name": "MPEG-2",
+          "profiles": [],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 25
+              }
+            ]
+        }
+      ]
+    },
+    {
+      "container": ["ts","mkv", "mov", "mp4", "webm"],
+      "audioCodec": ["AAC"],
+      "videoCodec": [
+        {
+          "name": "H.265",
+          "profiles": [
+            "mainProfile",
+            "main 10"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 3840,
+              "maxHeight": 2160,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "H.264",
+          "profiles": [
+            "mainProfile",
+            "main 10"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 3840,
+              "maxHeight": 2160,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "VP9",
+          "profiles": [
+            "mainProfile",
+            "main 10"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 3840,
+              "maxHeight": 2160,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

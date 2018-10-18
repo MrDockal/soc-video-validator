@@ -1,0 +1,64 @@
+{
+  "brightsign2": [
+    {
+      "container": ["ts", "mpg","vob", "mov", "mp4", "m2ts"],
+      "audioCodec": ["AAC", "vorbis"],
+      "videoCodec": [
+        {
+          "name": "H.264",
+          "profiles": [
+            "mainProfile",
+            "highProfile"
+          ],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 25
+              }
+          ]
+        },
+        {
+            "name": "AVC",
+            "profiles": [
+              "mainProfile",
+              "highProfile"
+            ],
+            "resolution": [
+              {
+                  "maxWidth": 1920,
+                  "maxHeight": 1080,
+                  "frameRate": 60,
+                  "bitRate": 25
+                }
+            ]
+        },
+        {
+          "name": "MPEG-2",
+          "profiles": [],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 25
+              }
+            ]
+        },
+        {
+          "name": "MPEG-1",
+          "profiles": [],
+          "resolution": [
+            {
+                "maxWidth": 1920,
+                "maxHeight": 1080,
+                "frameRate": 60,
+                "bitRate": 25
+              }
+            ]
+        }
+      ]
+    }
+  ]
+}
