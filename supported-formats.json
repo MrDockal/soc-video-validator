@@ -1,0 +1,56 @@
+{
+  "SSSP4": [
+    {
+      "container": ["AVI","MKV","ASF","MP4","3GP","MOV","FLV","VRO","VOB","PS","TS","SVAF"],
+      "audioCodec": ["ac3","lpcm","aac"],
+      "videoCodec": [
+        {
+          "name": "H.264",
+          "profiles": [
+            "baseProfile",
+            "mainProfile",
+            "HighProfile"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 4096,
+              "maxHeight": 2160,
+              "frameRate": 24,
+              "bitRate": 40
+            },
+            {
+              "maxWidth": 3840,
+              "maxHeight": 2160,
+              "frameRate": 30,
+              "bitRate": 40
+            },
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 80
+            }
+          ]
+        },
+        {
+          "name": "HEVC",
+          "profiles": ["Main","Main10","Main4:2:2"],
+          "resolution": [
+            {
+              "maxWidth": 4096,
+              "maxHeight": 2160,
+              "frameRate": 24,
+              "bitRate": 40
+            },
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
