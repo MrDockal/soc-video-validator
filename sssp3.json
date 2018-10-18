@@ -1,0 +1,308 @@
+{
+  "SSSP3": [
+    {
+      "container": ["WebM"],
+      "audioCodec": ["Vorbis"],
+      "videoCodec": [
+        {
+          "name": "VP8",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "container": ["RMVB"],
+      "audioCodec": ["RealAudio 6"],
+      "videoCodec": [
+        {
+          "name": "RV8",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "RV9",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        },
+        {
+          "name": "RV10",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "container": ["AVI","MKV","ASF","MP4","3GP","MOV","FLV","VRO","VOB","PS","TS","SVAF"],
+      "audioCodec": ["ac3","lpcm","aac","adpcm","he-aac","wma","dd+", "mpeg","mp3","dts","g.711"],
+      "videoCodec": [
+        {
+          "name": "Motion JPEG",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "H.264",
+          "profiles": [
+            "baseProfile",
+            "mainProfile",
+            "highProfile"
+          ],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "Divx",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "MPEG4",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "Windows Media Video",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "VC1",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "MVC",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "MPEG2",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "MPEG1",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 30,
+              "bitRate": 30
+            },
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 60,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "Microsoft MPEG-4",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 30,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "H 263 Sorrenson",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 30,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "Window Media Video",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 30,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "WMV1",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 30,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "WMV2",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 30,
+              "bitRate": 30
+            }
+          ]
+        },
+        {
+          "name": "VP6",
+          "profiles": [],
+          "resolution": [
+            {
+              "maxWidth": 1280,
+              "maxHeight": 720,
+              "frameRate": 30,
+              "bitRate": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
