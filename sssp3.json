@@ -86,7 +86,6 @@
           "name": "H.264",
           "profiles": [
             "baseProfile",
-            "mainProfile",
             "highProfile"
           ],
           "resolution": [
