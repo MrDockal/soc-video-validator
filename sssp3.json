@@ -69,6 +69,12 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
@@ -90,6 +96,12 @@
           ],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
@@ -107,6 +119,12 @@
           "name": "Divx",
           "profiles": [],
           "resolution": [
+            {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
             {
               "maxWidth": 1920,
               "maxHeight": 1080,
@@ -126,6 +144,12 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
@@ -143,6 +167,12 @@
           "name": "Windows Media Video",
           "profiles": [],
           "resolution": [
+            {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
             {
               "maxWidth": 1920,
               "maxHeight": 1080,
@@ -162,6 +192,12 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
@@ -179,6 +215,12 @@
           "name": "MVC",
           "profiles": [],
           "resolution": [
+            {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
             {
               "maxWidth": 1920,
               "maxHeight": 1080,
@@ -198,6 +240,12 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
@@ -215,6 +263,12 @@
           "name": "MPEG1",
           "profiles": [],
           "resolution": [
+            {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
             {
               "maxWidth": 1920,
               "maxHeight": 1080,

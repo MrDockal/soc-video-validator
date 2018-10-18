@@ -9,6 +9,12 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 30,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
@@ -69,16 +75,22 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -90,16 +102,22 @@
           ],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -108,16 +126,22 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -126,16 +150,22 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -144,16 +174,22 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -162,16 +198,22 @@
           "profiles": [],
           "resolution": [
             {
+              "maxWidth": 1080,
+              "maxHeight": 1920,
+              "frameRate": 60,
+              "bitRate": 6
+            },
+            {
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -183,13 +225,13 @@
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -201,13 +243,13 @@
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -219,13 +261,13 @@
               "maxWidth": 1920,
               "maxHeight": 1080,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             },
             {
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 60,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -237,7 +279,7 @@
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -249,7 +291,7 @@
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -261,7 +303,7 @@
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -273,7 +315,7 @@
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -285,7 +327,7 @@
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         },
@@ -297,7 +339,7 @@
               "maxWidth": 1280,
               "maxHeight": 720,
               "frameRate": 30,
-              "bitRate": 30
+              "bitRate": 20
             }
           ]
         }
