@@ -47,7 +47,7 @@
       "audioCodec": ["MPEG-1 Layer I", "MPEG-1 Layer II", "MPEG-1 Layer III (MP3)", "mp3", "Dolby Digital", "LPCM", "ADPCM", "DTS"],
       "videoCodec": [
         {
-          "name": "DivX3.11",
+          "name": "DivX 3.11",
           "profiles": [],
           "resolution": [
             {
@@ -378,18 +378,18 @@
                 "highProfile"
               ],
               "resolution": [
-                {
-                  "maxWidth": 3840,
-                  "maxHeight": 2160,
-                  "frameRate": 30,
-                  "bitRate": 20
-                },
-                {
-                  "maxWidth": 1920,
-                  "maxHeight": 1080,
-                  "frameRate": 60,
-                  "bitRate": 20
-                }
+               {
+              "maxWidth": 3840,
+              "maxHeight": 2160,
+              "frameRate": 30,
+              "bitRate": 20
+            },
+            {
+              "maxWidth": 1920,
+              "maxHeight": 1080,
+              "frameRate": 60,
+              "bitRate": 20
+            }
               ]
           }
         ]

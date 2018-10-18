@@ -47,7 +47,7 @@
       "audioCodec": ["MPEG-1 Layer I", "MPEG-1 Layer II", "MPEG-1 Layer III (MP3)", "mp3", "Dolby Digital", "LPCM", "ADPCM", "DTS"],
       "videoCodec": [
         {
-          "name": "DivX3.11",
+          "name": "DivX 3.11",
           "profiles": [],
           "resolution": [
             {
