@@ -13,7 +13,6 @@ const getDataAboutVideoFile = async(filepath) => {
 		frameRate = videoStream.r_frame_rate;
 	}
 	return {
-		container: "AVI",
 		audio: audioStream ? audioStream.codec_name : '',
 		videoCodec: {
 			name: videoStream.codec_name,
