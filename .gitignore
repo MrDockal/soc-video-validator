@@ -1,0 +1,8 @@
+.idea/
+dist/
+!dist/.gitkeep
+node_modules/
+src/**/*.jsx
+src/**/*.d.ts
+tests/__coverage__/
+tests/**/*.jsx
